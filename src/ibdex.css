@@ -1,5 +1,67 @@
-body {
-    background-color: black;
+.calculator {
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 100px auto 0;
+    text-align: center;
+    background-color: rgb(49, 48, 48);
+    box-shadow: 0 0 30px grey;
 }
+
+.calculatorForm {
+    height: 100%;
+    padding: 20px;
+}
+
+.calculatorButtons {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .display {
+    margin: 0 0 20px;
+    width: 100%;
+    border: 1px solid darkslateblue;
+    padding: 4px 2px;
+    text-align: right;
+    font: 700 15px/1 Arial, sans-serif;
+    color: darkslateblue;
+    background-color: whitesmoke;
+} */
+
+.screan {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.key {
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    transition: all .2s;
+    text-transform: uppercase;
+    border-radius: 6px;
+    position: relative;
+    transition: all 2s ease;
+}
+
+.keyEqual {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    transition: all .2s;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
 
     
