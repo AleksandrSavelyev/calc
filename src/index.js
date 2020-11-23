@@ -150,9 +150,9 @@ function butEqually() {
     console.log(val1, val2);
     switch(oper) {
         case '+' : document.getElementById('screan').innerHTML = display = val1 + val2;
-        return String(display);
+        return display;
         case '-' : document.getElementById('screan').innerHTML = display = val1 - val2;
-        return String(display);
+        return display;
         case '*' : document.getElementById('screan').innerHTML = display = val1 * val2;
         return display;
         case '/' : document.getElementById('screan').innerHTML = display = val1 / val2;
@@ -171,8 +171,7 @@ function butRem() {
     return display ;
 }
 
-function searchOper (display) {         
-    console.log(typeof(display));
+function searchOper (display) {
     for(i = 0; i < operators.length; i++) {
         if(display.indexOf(operators[i]) !== -1) {
             butEqually();
